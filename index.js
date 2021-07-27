@@ -451,7 +451,9 @@ app.get("/", (req, res) => {
   });
 });
 
-// Heroku va nous fournir une variable process.env.PORT
+
+
+//Heroku va nous fournir une variable process.env.PORT
 // if (process.env.PORT) {
 //   app.listen(process.env.PORT, () => {
 //     console.log("Server started");
@@ -462,6 +464,12 @@ app.get("/", (req, res) => {
 //   });
 // }
 
+
+
+
 app.listen(process.env.PORT || 3200, () => {
-  console.log("Server started");
+  console.log("Server backend démarre");
 });
+
+
+
